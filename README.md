@@ -1,24 +1,41 @@
-# backend
+# Backend for product & order management
 
-## Project setup
+## Prerequisites
+
+Make sure you have the following installed:
+
+- Node.js
+- NPM
+
+## Installation
+
+Clone the repository using the command
+
+```bash
+git clone https://github.com/thammarith/LIT-backend.git
 ```
+
+Enter the directory using
+
+```bash
+cd LIT-backend\
+```
+
+Run the commnad to install the dependencies using
+
+```bash
 npm install
 ```
 
-### Compiles and hot-reloads for development
-```
+After the setup is completed, for the development environment, run
+
+```bash
 npm run serve
 ```
 
-### Compiles and minifies for production
-```
+or run the following commands for the production environment
+
+```bash
 npm run build
+npm start
 ```
-
-### Lints and fixes files
-```
-npm run lint
-```
-
-### Customize configuration
-See [Configuration Reference](https://cli.vuejs.org/config/).
