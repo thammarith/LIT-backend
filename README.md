@@ -39,3 +39,7 @@ or run the following commands for the production environment
 npm run build
 npm start
 ```
+
+### Configuration
+
+In order to change the API endpoint, change the `host` variable in `./src/config.js`
